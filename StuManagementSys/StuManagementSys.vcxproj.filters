@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Student">
+      <UniqueIdentifier>{a54fabd7-8a85-4789-aff0-b63a58614169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\FileInOut">
+      <UniqueIdentifier>{cfd3bd78-439c-46a1-aa6c-ade966728e2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\main">
+      <UniqueIdentifier>{5dc144d2-92d1-4b51-aeea-f3ae37da2c84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Defalte">
+      <UniqueIdentifier>{c8db7421-c238-479e-a24b-e15eb3ac2b0c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\main</Filter>
+    </ClCompile>
+    <ClCompile Include="Fileinout.cpp">
+      <Filter>소스 파일\FileInOut</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>소스 파일\Student</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일\Defalte</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Fileinout.h">
+      <Filter>소스 파일\FileInOut</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>소스 파일\Student</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>소스 파일\Defalte</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>소스 파일\Defalte</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>소스 파일\Defalte</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
