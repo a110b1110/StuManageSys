@@ -15,7 +15,7 @@ Student::Student()
 
 Student::~Student() 
 {
-
+	delete[] stuName;
 }
 
 void Student::Print() 

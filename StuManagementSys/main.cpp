@@ -20,7 +20,7 @@ int main( void )
 
 	if (!in.eof()) 	//파일 열기
 	{
-		for (int i = 0; i < 10; ++i) 
+		for (int i = 0; i < 10; ++i)
 		{
 			in >> fstu.stuName >> fstu.korean >> fstu.math >> fstu.english;	//파일을 각 변수에 읽어 온다.
 			strcpy(stu[i].stuName, fstu.stuName);							//값을 student 클래스에 복사
@@ -39,4 +39,3 @@ int main( void )
 
 	return 0;
 }
-
