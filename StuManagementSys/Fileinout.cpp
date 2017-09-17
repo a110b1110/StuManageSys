@@ -4,15 +4,15 @@
 
 FileStudent::FileStudent()
 {
-	char*	stuName = new char[20];		//ÀÌ¸§
-	int		korean = 0;					//±¹¾î
-	int		math = 0;					//¼öÇÐ
-	int		english = 0;				//¿µ¾î
+	char*	stuName = new char[20];		//ï¿½Ì¸ï¿½
+	int		korean = 0;					//ï¿½ï¿½ï¿½ï¿½
+	int		math = 0;					//ï¿½ï¿½ï¿½ï¿½
+	int		english = 0;				//ï¿½ï¿½ï¿½ï¿½
 }
 
 FileStudent::~FileStudent()
 {
-
+	delete[] stuName;
 }
 
 void FileStudent::CallByFile()
